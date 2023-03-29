@@ -1231,11 +1231,7 @@ def programa():
         media4bim5 = (notamensal4bim5+ notabimestral4bim5) / 2
         media4bim6 = (notamensal4bim6+ notabimestral4bim6) / 2
         
-   #-------------------------------------------------------------------------------------
-    else:
-        print("Turma não cadastrada\n")
-
-
+    #-------------------------------------------------------------------------------------
 
 
         bimestre = str(input("Qual bimestre deseja acessar?\n"))
@@ -1274,7 +1270,8 @@ def programa():
 
 
 #-------------------------------------------------------------------------------------
-
+    else:
+        print("Turma não cadastrada\n")
 
 
 
@@ -1291,10 +1288,3 @@ def programa():
 programa()
 
 
-
-
-
-
-
-
-    #ARRUMAR ESSE CODIGO
